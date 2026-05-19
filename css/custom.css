@@ -97,3 +97,49 @@ a,
 .download-description {
   color: #E4E3D7 !important;
 }
+
+.site-header {
+  background: #213018 !important;
+  background-color: #213018 !important;
+  color: #E4E3D7 !important;
+  border-bottom-color: rgba(228, 227, 215, 0.18) !important;
+}
+
+.site-header .brand-name,
+.site-header .nav-link,
+.site-header .navbar-brand,
+.site-header a {
+  color: #E4E3D7 !important;
+}
+
+.site-header .nav-link:hover,
+.site-header .nav-link:focus,
+.site-header .navbar-brand:hover,
+.site-header a:hover {
+  color: #F0EFE4 !important;
+}
+
+.site-header .nav-link::after {
+  background: #E4E3D7 !important;
+}
+
+.site-header .btn-primary {
+  background: #E4E3D7 !important;
+  border-color: #E4E3D7 !important;
+  color: #213018 !important;
+}
+
+.site-header .btn-primary:hover,
+.site-header .btn-primary:focus {
+  background: #F0EFE4 !important;
+  border-color: #F0EFE4 !important;
+  color: #213018 !important;
+}
+
+.site-header .navbar-toggler {
+  border-color: rgba(228, 227, 215, 0.35) !important;
+}
+
+.site-header .navbar-toggler-icon {
+  filter: invert(92%) sepia(8%) saturate(270%) hue-rotate(18deg) brightness(98%) contrast(88%) !important;
+}
