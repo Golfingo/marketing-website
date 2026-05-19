@@ -1,25 +1,99 @@
 html,
-body {
+body,
+body[data-site-classes] {
+  --text-dark: #213018 !important;
+  --text-primary: #213018 !important;
+  --text-muted: #213018 !important;
+  --text-light: #213018 !important;
+  --text-secondary: #213018 !important;
+
+  --bg-page: #E4E3D7 !important;
+  --bg-light: #D8D7C9 !important;
+  --bg-card: #F0EFE4 !important;
+  --bg-primary: #E4E3D7 !important;
+  --bg-secondary: #D8D7C9 !important;
+  --section-surface-a: #E4E3D7 !important;
+  --section-surface-b: #D8D7C9 !important;
+  --surface-elevated: rgba(228, 227, 215, 0.94) !important;
+
   background: #E4E3D7 !important;
-  background-color: #E4E3D7 !important;
   color: #213018 !important;
 }
 
-body *,
-body *::before,
-body *::after {
+.site-header {
+  background: rgba(228, 227, 215, 0.94) !important;
   color: #213018 !important;
 }
 
-section,
-main,
-header,
-footer,
+.hero {
+  background: linear-gradient(180deg, #D8D7C9 0%, #E4E3D7 100%) !important;
+  color: #213018 !important;
+}
+
+.screenshots-section,
+.privacy-page {
+  background: #E4E3D7 !important;
+  color: #213018 !important;
+}
+
+.features-section {
+  background: linear-gradient(180deg, #E4E3D7 0%, #D8D7C9 100%) !important;
+  color: #213018 !important;
+}
+
+.testimonials-section {
+  background: linear-gradient(180deg, #D8D7C9 0%, #E4E3D7 100%) !important;
+  color: #213018 !important;
+}
+
+.download-section {
+  background: linear-gradient(135deg, #213018 0%, #3D5630 100%) !important;
+}
+
+.site-footer {
+  background: linear-gradient(180deg, #D8D7C9 0%, #E4E3D7 100%) !important;
+  color: #213018 !important;
+}
+
+.feature-card,
+.testimonial-card {
+  background: #F0EFE4 !important;
+  color: #213018 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+span,
 div,
-.container,
-.container-fluid,
-.row,
-.col,
-[class*="col-"] {
-  background-color: transparent !important;
+a,
+.nav-link,
+.brand-name,
+.hero-title,
+.hero-subtitle,
+.section-description,
+.feature-title,
+.feature-description,
+.testimonial-quote,
+.testimonial-author,
+.footer-tagline,
+.footer-copyright p,
+.footer-privacy-link,
+.footer-kickstart-link,
+.privacy-content,
+.privacy-content p,
+.privacy-content li,
+.privacy-content h2,
+.privacy-content h3 {
+  color: #213018 !important;
+}
+
+.download-content h2,
+.download-description {
+  color: #E4E3D7 !important;
 }
