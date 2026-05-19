@@ -143,3 +143,11 @@ a,
 .site-header .navbar-toggler-icon {
   filter: invert(92%) sepia(8%) saturate(270%) hue-rotate(18deg) brightness(98%) contrast(88%) !important;
 }
+
+.site-header .site-logo {
+  background: #E4E3D7 !important;
+  border: 1px solid rgba(228, 227, 215, 0.35) !important;
+  border-radius: 14px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.22) !important;
+  object-fit: cover !important;
+}
