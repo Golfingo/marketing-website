@@ -1,0 +1,153 @@
+html,
+body,
+body[data-site-classes] {
+  --text-dark: #213018 !important;
+  --text-primary: #213018 !important;
+  --text-muted: #213018 !important;
+  --text-light: #213018 !important;
+  --text-secondary: #213018 !important;
+
+  --bg-page: #E4E3D7 !important;
+  --bg-light: #D8D7C9 !important;
+  --bg-card: #F0EFE4 !important;
+  --bg-primary: #E4E3D7 !important;
+  --bg-secondary: #D8D7C9 !important;
+  --section-surface-a: #E4E3D7 !important;
+  --section-surface-b: #D8D7C9 !important;
+  --surface-elevated: rgba(228, 227, 215, 0.94) !important;
+
+  background: #E4E3D7 !important;
+  color: #213018 !important;
+}
+
+.site-header {
+  background: rgba(228, 227, 215, 0.94) !important;
+  color: #213018 !important;
+}
+
+.hero {
+  background: linear-gradient(180deg, #D8D7C9 0%, #E4E3D7 100%) !important;
+  color: #213018 !important;
+}
+
+.screenshots-section,
+.privacy-page {
+  background: #E4E3D7 !important;
+  color: #213018 !important;
+}
+
+.features-section {
+  background: linear-gradient(180deg, #E4E3D7 0%, #D8D7C9 100%) !important;
+  color: #213018 !important;
+}
+
+.testimonials-section {
+  background: linear-gradient(180deg, #D8D7C9 0%, #E4E3D7 100%) !important;
+  color: #213018 !important;
+}
+
+.download-section {
+  background: linear-gradient(135deg, #213018 0%, #3D5630 100%) !important;
+}
+
+.site-footer {
+  background: linear-gradient(180deg, #D8D7C9 0%, #E4E3D7 100%) !important;
+  color: #213018 !important;
+}
+
+.feature-card,
+.testimonial-card {
+  background: #F0EFE4 !important;
+  color: #213018 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+span,
+div,
+a,
+.nav-link,
+.brand-name,
+.hero-title,
+.hero-subtitle,
+.section-description,
+.feature-title,
+.feature-description,
+.testimonial-quote,
+.testimonial-author,
+.footer-tagline,
+.footer-copyright p,
+.footer-privacy-link,
+.footer-kickstart-link,
+.privacy-content,
+.privacy-content p,
+.privacy-content li,
+.privacy-content h2,
+.privacy-content h3 {
+  color: #213018 !important;
+}
+
+.download-content h2,
+.download-description {
+  color: #E4E3D7 !important;
+}
+
+.site-header {
+  background: #213018 !important;
+  background-color: #213018 !important;
+  color: #E4E3D7 !important;
+  border-bottom-color: rgba(228, 227, 215, 0.18) !important;
+}
+
+.site-header .brand-name,
+.site-header .nav-link,
+.site-header .navbar-brand,
+.site-header a {
+  color: #E4E3D7 !important;
+}
+
+.site-header .nav-link:hover,
+.site-header .nav-link:focus,
+.site-header .navbar-brand:hover,
+.site-header a:hover {
+  color: #F0EFE4 !important;
+}
+
+.site-header .nav-link::after {
+  background: #E4E3D7 !important;
+}
+
+.site-header .btn-primary {
+  background: #E4E3D7 !important;
+  border-color: #E4E3D7 !important;
+  color: #213018 !important;
+}
+
+.site-header .btn-primary:hover,
+.site-header .btn-primary:focus {
+  background: #F0EFE4 !important;
+  border-color: #F0EFE4 !important;
+  color: #213018 !important;
+}
+
+.site-header .navbar-toggler {
+  border-color: rgba(228, 227, 215, 0.35) !important;
+}
+
+.site-header .navbar-toggler-icon {
+  filter: invert(92%) sepia(8%) saturate(270%) hue-rotate(18deg) brightness(98%) contrast(88%) !important;
+}
+
+.site-header .site-logo {
+  background: #E4E3D7 !important;
+  border: 1px solid rgba(228, 227, 215, 0.35) !important;
+  border-radius: 14px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.22) !important;
+  object-fit: cover !important;
+}
