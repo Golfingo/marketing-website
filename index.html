@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en" data-light-theme="light" data-dark-theme="dark">
   <head>
+    <base href="./" />
     <meta property="og:site_name" content="Teed Golf" />
     <meta property="og:title" content="Home" />
     <meta name="twitter:title" content="Home" />
@@ -13,12 +14,12 @@
     <meta name="author" content="Teed Golf" />
     <meta name="generator" content="Ignite v0.6.0" />
     <title>Home</title>
-    <link href="/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="/css/bootstrap-icons.min.css" rel="stylesheet" />
-    <link href="/css/ignite-core.min.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/bootstrap-icons.min.css" rel="stylesheet" />
+    <link href="css/ignite-core.min.css" rel="stylesheet" />
     <link href="https://example.com/" rel="canonical" />
-    <link href="/images/favicon.png" rel="icon" />
-    <link href="/css/styles.css" rel="stylesheet" />
+    <link href="images/favicon.png" rel="icon" />
+    <link href="css/styles.css" rel="stylesheet" />
     <style>
 :root {
     --primary-color: #203018;
@@ -27,7 +28,7 @@
     color-scheme: light;
 }
 </style>
-    <link href="/css/custom.css" rel="stylesheet" />
+    <link href="css/custom.css" rel="stylesheet" />
     <meta name="apple-itunes-app" content="app-id=6778630449" />
   </head>
   <body data-site-classes="site-shell light-mode" data-bs-theme="light">
@@ -35,7 +36,7 @@
       <nav class="site-header navbar navbar-expand-md">
         <div class="container flex-wrap flex-lg-nowrap">
           <div class="me-2 me-md-auto">
-            <a href="/" class="brand-link d-inline-flex align-items-center navbar-brand"><img src="/images/logo.png" alt="Logo" class="site-logo" /><span class="brand-name">Teed Golf</span></a>
+            <a href="index.html" class="brand-link d-inline-flex align-items-center navbar-brand"><img src="images/logo.png" alt="Logo" class="site-logo" /><span class="brand-name">Teed Golf</span></a>
           </div>
           <button type="button" class="navbar-toggler btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
           <div id="navbarCollapse" class="collapse navbar-collapse">
@@ -54,7 +55,7 @@
         <div id="hero" class="hero hero-centered">
           <div class="container">
             <div class="hero-content">
-              <img src="/images/app-icon.png" alt="App Icon" class="hero-app-icon" />
+              <img src="images/app-icon.png" alt="App Icon" class="hero-app-icon" />
               <h1 class="hero-title">Capture Your Golf Journey</h1>
               <p class="hero-subtitle">Track and celebrate every hole, from your first birdies to legendary eagles.</p>
               <div class="hero-cta">
@@ -73,22 +74,41 @@
             </div>
           </div>
         </div>
+        <div id="video" class="video-section">
+          <div class="container">
+            <div class="section-header"></div>
+            <div class="video-container">
+              <div class="video-frame"> 
+                <iframe class="video-iframe" src="https://www.youtube-nocookie.com/embed/qGSNYxgAVF4?rel=0&amp;modestbranding=1&amp;playsinline=1" title="Video" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="video-2" class="video-section">
+          <div class="container">
+            <div class="section-header"></div>
+            <div class="video-container">
+              <div class="video-frame"> 
+                <iframe class="video-iframe" src="https://www.youtube-nocookie.com/embed/nNnqAD-f4d4?rel=0&amp;modestbranding=1&amp;playsinline=1" title="Video" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+              </div>
+            </div>
+          </div>
+        </div>
         <div id="screenshots" class="screenshots-section screenshots-carousel">
           <div class="container">
             <div class="section-header">
               <h2>See It in Action</h2>
-              <p class="section-description">This is placeholder for now</p>
             </div>
             <div class="screenshots-container">
               <div class="screenshots-scroll">
                 <div class="screenshot-card">
-                  <button type="button" class="screenshot-trigger btn" data-bs-toggle="modal" data-bs-target="#screenshot-modal-0"><img src="/images/screenshots/solo-card-stats-framed.png" alt="Screenshot 1" class="screenshot-image screenshot-frame-image" /></button>
+                  <button type="button" class="screenshot-trigger btn" data-bs-toggle="modal" data-bs-target="#screenshot-modal-0"><img src="images/screenshots/SS%2016%20(solo%20card%20with%20stats)-framed.png" alt="Screenshot 1" class="screenshot-image screenshot-frame-image" /></button>
                 </div>
                 <div class="screenshot-card">
-                  <button type="button" class="screenshot-trigger btn" data-bs-toggle="modal" data-bs-target="#screenshot-modal-1"><img src="/images/screenshots/score-entry-framed.png" alt="Screenshot 2" class="screenshot-image screenshot-frame-image" /></button>
+                  <button type="button" class="screenshot-trigger btn" data-bs-toggle="modal" data-bs-target="#screenshot-modal-1"><img src="images/screenshots/SS%203-framed.png" alt="Screenshot 2" class="screenshot-image screenshot-frame-image" /></button>
                 </div>
                 <div class="screenshot-card">
-                  <button type="button" class="screenshot-trigger btn" data-bs-toggle="modal" data-bs-target="#screenshot-modal-2"><img src="/images/screenshots/round-history-framed.png" alt="Screenshot 3" class="screenshot-image screenshot-frame-image" /></button>
+                  <button type="button" class="screenshot-trigger btn" data-bs-toggle="modal" data-bs-target="#screenshot-modal-2"><img src="images/screenshots/SS%2015%20(round%20history%20still)-framed.png" alt="Screenshot 3" class="screenshot-image screenshot-frame-image" /></button>
                 </div>
               </div>
             </div>
@@ -100,7 +120,7 @@
                     <button type="button" class="btn btn-close" data-bs-dismiss="modal" label="Close"></button>
                   </div>
                   <div class="modal-body text-center">
-                    <img src="/images/screenshots/solo-card-stats-framed.png" alt="Screenshot 1" class="img-fluid screenshot-lightbox-image screenshot-frame-image" />
+                    <img src="images/screenshots/SS%2016%20(solo%20card%20with%20stats)-framed.png" alt="Screenshot 1" class="img-fluid screenshot-lightbox-image screenshot-frame-image" />
                   </div>
                 </div>
               </div>
@@ -113,7 +133,7 @@
                     <button type="button" class="btn btn-close" data-bs-dismiss="modal" label="Close"></button>
                   </div>
                   <div class="modal-body text-center">
-                    <img src="/images/screenshots/score-entry-framed.png" alt="Screenshot 2" class="img-fluid screenshot-lightbox-image screenshot-frame-image" />
+                    <img src="images/screenshots/SS%203-framed.png" alt="Screenshot 2" class="img-fluid screenshot-lightbox-image screenshot-frame-image" />
                   </div>
                 </div>
               </div>
@@ -126,7 +146,7 @@
                     <button type="button" class="btn btn-close" data-bs-dismiss="modal" label="Close"></button>
                   </div>
                   <div class="modal-body text-center">
-                    <img src="/images/screenshots/round-history-framed.png" alt="Screenshot 3" class="img-fluid screenshot-lightbox-image screenshot-frame-image" />
+                    <img src="images/screenshots/SS%2015%20(round%20history%20still)-framed.png" alt="Screenshot 3" class="img-fluid screenshot-lightbox-image screenshot-frame-image" />
                   </div>
                 </div>
               </div>
@@ -171,60 +191,6 @@
             </div>
           </div>
         </div>
-        <div id="reviews" class="testimonials-section testimonials-carousel">
-          <div class="container">
-            <div class="section-header">
-              <h2>What Users Say</h2>
-              <p class="section-description">Read reviews posted on the App Store.</p>
-            </div>
-            <div class="testimonials-scroll">
-              <div class="testimonial-card">
-                <div class="testimonial-rating">
-                  <span class="star">★</span>
-                  <span class="star">★</span>
-                  <span class="star">★</span>
-                  <span class="star">★</span>
-                  <span class="star">★</span>
-                </div>
-                <p class="testimonial-quote">Teed is an absolute game-changer! I've never tracked my golf game like this before. It's so easy to use and makes every hole feel like a milestone.</p>
-                <p class="testimonial-author">John D.</p>
-              </div>
-              <div class="testimonial-card">
-                <div class="testimonial-rating">
-                  <span class="star">★</span>
-                  <span class="star">★</span>
-                  <span class="star">★</span>
-                  <span class="star">★</span>
-                  <span class="star">☆</span>
-                </div>
-                <p class="testimonial-quote">I love how Teed captures all my golf moments. It's a great way to remember my favorite holes and track my progress over time.</p>
-                <p class="testimonial-author">Sarah M.</p>
-              </div>
-              <div class="testimonial-card">
-                <div class="testimonial-rating">
-                  <span class="star">★</span>
-                  <span class="star">★</span>
-                  <span class="star">★</span>
-                  <span class="star">★</span>
-                  <span class="star">★</span>
-                </div>
-                <p class="testimonial-quote">Teed is perfect for golfers who want to celebrate their achievements. It's a fun and interactive way to track your game.</p>
-                <p class="testimonial-author">Emily L.</p>
-              </div>
-              <div class="testimonial-card">
-                <div class="testimonial-rating">
-                  <span class="star">★</span>
-                  <span class="star">★</span>
-                  <span class="star">★</span>
-                  <span class="star">★</span>
-                  <span class="star">☆</span>
-                </div>
-                <p class="testimonial-quote">I've been using Teed for a few months now, and it's been a great way to stay motivated. It's a fun and engaging way to track your game.</p>
-                <p class="testimonial-author">Michael R.</p>
-              </div>
-            </div>
-          </div>
-        </div>
         <div id="download" class="download-section">
           <div class="container">
             <div class="download-content">
@@ -236,35 +202,25 @@
             </div>
           </div>
         </div>
-        <div id="video" class="video-section">
-          <div class="container">
-            <div class="section-header"></div>
-            <div class="video-container">
-              <div class="video-frame"> 
-                <iframe class="video-iframe" src="https://www.youtube-nocookie.com/embed/qGSNYxgAVF4?rel=0&amp;modestbranding=1&amp;playsinline=1" title="Video" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </main>
     <div class="site-footer">
       <div class="container">
         <div class="footer-content">
           <div class="footer-brand">
-            <img src="/images/footer-logo.png" alt="Logo" class="footer-logo" />
+            <img src="images/footer-logo.png" alt="Logo" class="footer-logo" />
             <p class="footer-tagline">Unveil your Hidden Golf Story</p>
           </div>
         </div>
         <div class="footer-copyright">
           <div class="footer-links">
-            <a href="/privacy/" class="footer-privacy-link">Privacy Policy</a>
+            <a href="privacy/index.html" class="footer-privacy-link">Privacy Policy</a>
           </div>
           <p>Copyright 2026 Teed Golf. All rights reserved.</p>
         </div>
       </div>
     </div>
-    <script src="/js/bootstrap.bundle.min.js"></script>
-    <script src="/js/ignite-core.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/ignite-core.js"></script>
   </body>
 </html>
